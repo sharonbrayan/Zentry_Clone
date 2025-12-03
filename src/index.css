@@ -1,3 +1,4 @@
+/* @tailwindcss/v3-config */
 @import "tailwindcss";
 
 /* Put font-face declarations inside the base layer so order is correct */
