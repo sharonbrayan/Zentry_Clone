@@ -1,16 +1,40 @@
-# React + Vite
+# Zentry Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean clone of the Zentry landing experience — implemented as a learning project to practice React, component structure, responsive layout, and GSAP animations.  
+This repo is my rebuild inspired by a YouTube tutorial; the purpose was to learn and reverse-engineer modern landing interactions and improve frontend skills.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔎 Project Overview
 
-## React Compiler
+- **Purpose:** Educational clone built to understand layout, animation, and component patterns used in modern landing pages.
+- **Focus areas:** React component structure, responsive CSS, GSAP (basic ScrollTrigger/animation), accessibility basics.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Responsive landing layout (hero, features, CTA)
+- GSAP-driven entrance and scroll animations
+- Modern component structure (React + .jsx files)
+- Mobile-first styling and responsive breakpoints
+- Easy-to-follow folder structure for learning and iteration
+
+---
+
+## 🛠 Tech Stack
+
+- Frontend: **React (.jsx)**  
+- Animations: **GSAP (ScrollTrigger, core)**  
+- Styling: Tailwind
+- Tooling: Vite / Create React App (adjust based on your setup)
+
+---
+
+## Getting started (local)
+
+1. Clone the repo
+```bash
+git clone https://github.com/sharonbrayan/Zentry_Clone.git
+cd Zentry_Clone
